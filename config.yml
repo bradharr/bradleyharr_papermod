@@ -1,0 +1,93 @@
+baseURL: https://www.bradleyharr.com/
+languageCode: en-us
+title: Bradley Harr
+theme: PaperMod
+
+menu:
+  main:
+    - identifier: tags
+      name: tags
+      url: /tags/
+      weight: 20
+    - identifier: archives
+      name: archives
+      url: /archives/
+      weight: 50
+    - identifier: search
+      name: search
+      url: /search/
+      weight: 10
+    - identifier: blog
+      name: blog
+      url: /post/
+      weight: 40
+    - identifer: about
+      name: about
+      url: /about/
+      weight: 70
+    - identifier: library
+      name: library
+      url: /library/
+      weight: 60
+    - identifier: categories
+      name: categories
+      url: /categories/
+      weight: 30
+
+params:
+  homeInfoParams:
+    imageUrl: "img/Bradley_Headshot_Square.JPG"
+    imageTitle: "<title of image as alt>"
+    imageWidth: 280 
+    imageHeight: 300
+    Title: Hey, I'm Bradley Harr...
+    Subtitle: 'Business Analyst | Project Management Professional | Software Developer'
+    Content: Welcome! You've stumbled upon my small little corner of the internet. Created to be minimalistic by design, this is just a simple place to tell you a little about me and share some of my favorite reads with you through the library page and some of my thoughts, recipes, and other information via my blog.  If you like what you read, feel free to use the social media icons on each post to share it with your friends and family.  If you really like what you read, feel free to click the coffee cup icon below to buy me a coffee. :-)
+
+
+  defaultTheme: light
+  disableThemeToggle: true
+
+  assets:
+    favicon: "/img/favicon.ico"
+    favicon16x16: "/img/favicon-16x16.png"
+    favicon32x32: "/img/favicon-32x32.png"
+    apple_touch_icon: "/img/apple-touch-icon.png"
+
+
+  socialIcons:
+    - name: "facebook"
+      url: "https://www.facebook.com/bradleysharr"
+    - name: "twitter"
+      url: "https://www.twitter.com/bradley_s_harr"
+    - name: "linkedin"
+      url: "https://www.linkedin.com/in/bradleyharr"
+    - name: "github"
+      url: "https://www.github.com/bradharr"
+    - name: "telegram"
+      url: "https://t.me/bharr01"
+    - name: "kofi"
+      url: "https://www.ko-fi.com/bradleyharr"
+    - name: "goodreads"
+      url: "https://www.goodreads.com/user/show/27470732-bradley-harr"
+    - name: "discogs"
+      url: "https://www.discogs.com/user/bharr01"
+    - name: "rss"
+      url: "https://www.bradleyharr.com/post/index.xml"
+
+  ShowToC: true
+  ShowBreadcrumbs: true
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowWordCount: true
+  disableScrollToTop: false
+  UseHugoToC: true
+  ShowRssButtonInSectionTermList: true
+  author: ["by Bradley Harr"]
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
